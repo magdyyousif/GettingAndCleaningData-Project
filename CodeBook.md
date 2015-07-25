@@ -16,9 +16,9 @@
 # Codebook
 the result set contain the below variables:
 
-*Activity: the activity performed by the subject while wearing the measuring devices
-*Subject: the subject number of the person performing this specific activity
-*Avergae of all the below field for all the measurments for this person on this action:
+* Activity: the activity performed by the subject while wearing the measuring devices
+* Subject: the subject number of the person performing this specific activity
+* Avergae of all the below field for all the measurments for this person on this action:
   * tBodyAcc-mean()-X
   * tBodyAcc-mean()-Y
   * tBodyAcc-mean()-Z
