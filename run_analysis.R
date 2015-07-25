@@ -1,4 +1,4 @@
-#library(dplyr)
+library(dplyr)
 
 LoadDataFile <- function (name, colNames)
 {
@@ -60,4 +60,4 @@ Summary <-
   group_by(Activity,Subject) %>%
   summarise_each(funs(mean))
 
-write.table(Summary, "TidyDataSummary.csv", row.name=FALSE)
+write.table(Summary, "TidyDataSummary.txt", row.name=FALSE)
